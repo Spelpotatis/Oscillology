@@ -1,9 +1,27 @@
 .bigText{
     font-size: 6em;
-    
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+.mediumText{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+.bigBox{
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-right: 3em;
+    padding-left: 3em;
+
 }
 
 .center{
     text-align: center;
     margin: auto;
+}
+
+.blackButton{
+    background-color: black;
+    color: white;
 }
