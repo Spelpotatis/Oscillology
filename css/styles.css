@@ -1,3 +1,9 @@
 .bigText{
     font-size: 6em;
+    
+}
+
+.center{
+    text-align: center;
+    margin: auto;
 }
