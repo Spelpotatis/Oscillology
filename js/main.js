@@ -1,3 +1,5 @@
+var lastUpdate = Date.now();
+
 //Setting up the main vue
 var game = new Vue({
     el: '#game',
@@ -10,3 +12,11 @@ var game = new Vue({
         neutralScaling: new ExpantaNum(2), //how much neutralCost multiplies each neutral wave
     }
 })
+
+function gameLoop(){
+    diff = Date.now - lastUpdate;
+    productionLoop(diff);
+    lastUpdate = Date.now();
+}
+
+setInterval(gameLoop, 50)
