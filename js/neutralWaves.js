@@ -1,7 +1,7 @@
 function buyNeutralWave() {
-    if (game.number >= game.neutralCost){
-        game.number -= game.neutralCost
-        game.neutralWaves++
-        game.neutralCost *= game.neutralScaling
+    if (game.number.gte(game.neutralCost)){
+        game.number.sub(game.neutralCost)
+        game.neutralWaves.add(1)
+        game.neutralCost.mul(game.neutralScaling)
     }
 }
