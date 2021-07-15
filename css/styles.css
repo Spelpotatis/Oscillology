@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(147, 200, 148);
+    user-select: none;
+}
+
 .bigText{
     font-size: 6em;
     font-family: 'Courier New', Courier, monospace;   
@@ -13,6 +18,8 @@
     padding-top: 2em;
     padding-right: 3em;
     padding-left: 3em;
+    margin: 0.5em;
+    width: fit-content;
 
 }
 
@@ -28,6 +35,15 @@
     border-radius: 2em;
     border-width: 0.5em;
     border-color: black;
+}
+
+.neutralBuyButton{
+    background-color: black;
+    color: cyan;
+    border-style: solid;
+    border-radius: 2em;
+    border-width: 0.5em;
+    border-color: cyan;
 }
 
 .blackButton:hover{

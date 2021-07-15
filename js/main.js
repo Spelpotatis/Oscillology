@@ -13,6 +13,8 @@ var game = new Vue({
     }
 })
 
+
+
 function gameLoop(){
     diff = Date.now() - lastUpdate;
     productionLoop(diff);
